@@ -1,0 +1,60 @@
+{
+   "basePath": "Fill with basePath config",
+   "apis": [{
+      "methods": [
+         {
+            "headers": [],
+            "bodyobject": null,
+            "jsondocId": "51cf3c82-0c14-40ad-8b62-b9a906b5d41f",
+            "consumes": [],
+            "response": {
+               "mapKeyObject": "",
+               "jsondocId": "accd61b0-50de-4780-b131-ad9964b1d49c",
+               "mapValueObject": "",
+               "object": "person"
+            },
+            "pathparameters": [],
+            "apierrors": [],
+            "verb": "GET",
+            "description": "Get a book",
+            "queryparameters": [],
+            "path": "/api/person",
+            "produces": ["application/json"],
+            "methodName": "index"
+         },
+         {
+            "headers": [],
+            "bodyobject": null,
+            "jsondocId": "c31ed81c-f1e5-4e11-bc6d-b4fdd2b55b46",
+            "consumes": [],
+            "response": {
+               "mapKeyObject": "",
+               "jsondocId": "9dd9481b-0724-4c41-899b-aae9b788e13c",
+               "mapValueObject": "",
+               "object": "person"
+            },
+            "pathparameters": [{
+               "jsondocId": "bafcd8fc-3c42-4cf1-959d-9303b374c7c1",
+               "description": "The person id",
+               "name": "id",
+               "allowedvalues": [],
+               "format": "",
+               "required": "true",
+               "type": "long"
+            }],
+            "apierrors": [],
+            "verb": "GET",
+            "description": "Get a book",
+            "queryparameters": [],
+            "path": "/api/person/{id}",
+            "produces": ["application/json"],
+            "methodName": "show"
+         }
+      ],
+      "jsondocId": "b8115b5e-38ae-4290-a12f-f81331cb3041",
+      "description": "Methods for managing person",
+      "name": "Person API"
+   }],
+   "objects": [],
+   "version": "0.1.1"
+}
